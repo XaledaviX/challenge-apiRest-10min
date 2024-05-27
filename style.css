@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-img img{
+    height: 13em;
+    width: 12em;
+}
